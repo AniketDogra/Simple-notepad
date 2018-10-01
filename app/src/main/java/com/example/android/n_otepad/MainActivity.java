@@ -198,7 +198,7 @@ public class MainActivity extends AppCompatActivity
     {
         getSupportFragmentManager().beginTransaction().setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN).replace(R.id.frame_list,fragment).commit();
     }
-
+        //aski6.0ng for media below 
     void permissionAudio()
     {
         int MY_PERMISSION_RECORD = 1;
