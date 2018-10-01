@@ -14,7 +14,7 @@ buildscript {
         // in the individual module build.gradle files
     }
 }
-
+//note
 allprojects {
     repositories {
         google()
