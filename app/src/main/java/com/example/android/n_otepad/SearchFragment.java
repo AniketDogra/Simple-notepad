@@ -50,7 +50,7 @@ public class SearchFragment extends Fragment {
         searchView.setOnQueryTextListener(new android.support.v7.widget.SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String query) {
-
+//              ifquery is empty
                 if(query.equals(""))
                 {
                     Toast.makeText(getContext(),"Enter Note title",Toast.LENGTH_SHORT).show();
