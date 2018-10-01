@@ -1,3 +1,4 @@
+//Database
 package com.example.android.n_otepad;
 
 import android.content.ContentValues;
